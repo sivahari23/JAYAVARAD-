@@ -1,0 +1,37 @@
+.page2{
+    width: 100%;
+    height: 100vh;
+  
+  }
+  .img_page2{
+    background: url('../../../../public/heropage_image2.jpg');
+    width: 100%;
+    opacity: 70%;
+      height: 30vh;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+       
+      
+        /* Set a specific height */
+        min-height: 350px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  .title{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.1rem;
+  }
+  .contex_page2{
+    color: #000;
+    line-height: 200%;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 0 20px;
+  }
